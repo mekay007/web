@@ -1,2 +1,2 @@
 # Vorlesungsmaterialien
-[Zusammenfassung Alexander Foerster](Klausurfolen.pdf)
+[Zusammenfassung](https://github.com/mekay007/web/blob/main/Klausurfolien.pdf)
