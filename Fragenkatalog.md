@@ -18,6 +18,6 @@
 18. Wofuer steht DOM und was tut es?
 19. Wie sieht ein HTML Element aus?
 20. Gibt es leere Elemente wenn ja welche?
-21. Gibt es bei den beiden Tags einen unterschied in HTML <p> und <P>?
+21. Gibt es bei den beiden Tags einen unterschied in HTML `<p>` und `<P>`?
 22.  
 
