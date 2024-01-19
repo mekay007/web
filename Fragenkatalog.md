@@ -35,10 +35,17 @@
 34. Welche HTTP Anfragemethoden gibt es?
 35. Welche HTTP Status-COdes gibt es?
 36. Wie ist eine HTTP URI aufgebaut?
-37. Nennen Sie 3 Font-Familien?
-38. Zeichnen Sie das Box-Model an?
-39. 
+37. Wie sichert man den Client?
+38. Wie sichert man den Server?
+39. Wie funktioniert der TLS Handshake zwischen Server und Cient?
+# CSS Fragen?
+1. Nennen Sie 3 Font-Familien?
+2. Zeichnen Sie das Box-Model an und erklären Sie jedes Elemnt?
+3. Was ist der unterschied zwischen content-box und bordebox?
+4. Was versteht man unter Responsive Web-Design und wie kann man so ein Design realisieren?
+5. Wie realisiere ich eine Mediaquery für Bildschirme die max 600px breit sind?
 # HTML aufgaben:
 1. Schreiben Sie einen einfachen adierer in HTML?
 2. Erstellen Sie eine Tabell in HTML
 # Javascript Aufgaben:
+
