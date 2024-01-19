@@ -1,3 +1,4 @@
+# Fragenkatalog
 1. Wie sieht ein syntaktisch richtiges HTML Dokument aus?
 2. Wann und von wem wurde der Begriff WorldWideWeb gepraegt?
 3. Was war ein Problem von Web 1.0?
@@ -21,4 +22,17 @@
 21. Gibt es bei den beiden Tags einen unterschied in HTML `<p>` und `<P>`?
 22. Koennen HTML Elemente Attrubute haben?
 23. Wo und wie kann man diese Attribute aendern?
-24. 
+24. Was ist der unterschied zwischen Inline und Block Elemente?
+25. Welche Tags benutzt man zum erstellen eines Formulars?
+26. wie binde ich eine Javascript Datei intern und extern ein?
+27. Welche Selektoren gib es alles?
+28. Wie kann ich den Inhalt eines Elemnets via Javascript erweitern?
+29. Welche wichtigen Event Listener gibt es und wie kann man diese hinzufuegen? Einmal mittels Dom und einmal HTML Attribut.
+30. Wie Navigiere ich mich durch eine DOM?
+31. Wie erzeugt, löscht und verändert man ein Element mittels DOM? Geben Sie für alle jeweil ein Besipiel.
+32. Was ist das Konzept hinter AJAX und was sind fie Vor- und Nachteile?
+33. 
+# HTML aufgaben:
+1. Schreiben Sie einen einfachen adierer in HTML?
+2. Erstellen Sie eine Tabell in HTML
+# Javascript Aufgaben:
