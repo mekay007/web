@@ -31,7 +31,13 @@
 30. Wie Navigiere ich mich durch eine DOM?
 31. Wie erzeugt, löscht und verändert man ein Element mittels DOM? Geben Sie für alle jeweil ein Besipiel.
 32. Was ist das Konzept hinter AJAX und was sind fie Vor- und Nachteile?
-33. 
+33. Was ist HTTP und wie wird dies eingesetzt?
+34. Welche HTTP Anfragemethoden gibt es?
+35. Welche HTTP Status-COdes gibt es?
+36. Wie ist eine HTTP URI aufgebaut?
+37. Nennen Sie 3 Font-Familien?
+38. Zeichnen Sie das Box-Model an?
+39. 
 # HTML aufgaben:
 1. Schreiben Sie einen einfachen adierer in HTML?
 2. Erstellen Sie eine Tabell in HTML
