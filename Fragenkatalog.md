@@ -80,33 +80,33 @@
     </form>
     ```
 51. Wie binde ich eine Javascript intern und extern ein?
-   test.js<br>
-   ```js
-   function pp(){
-       let test=document.getElementById("penis");
-       test.innerHTML="Penis123";
-   }
-   ```
-   ```html
-    <!DOCTYPE html>
-      <html lang="en">
-         <head>
-          <meta charset="UTF-8">
-          <title>Title</title>
-          <script src="testj.js"></script>
-         </head>
-         <body>
-            <h1 id="penis">
-            </h1>
-            <script>
-                let testi=document.getElementById("penis")
-                testi.inneML="Penis123";
-                pp();
-                //Gleiche funktionalitaet einaml intern und extern
-            </script>
-         </body>
-      </html>
-   ```
+      test.js<br>
+      ```js
+      function pp(){
+          let test=document.getElementById("penis");
+          test.innerHTML="Penis123";
+      }
+      ```
+      ```html
+       <!DOCTYPE html>
+         <html lang="en">
+            <head>
+             <meta charset="UTF-8">
+             <title>Title</title>
+             <script src="testj.js"></script>
+            </head>
+            <body>
+               <h1 id="penis">
+               </h1>
+               <script>
+                   let testi=document.getElementById("penis")
+                   testi.inneML="Penis123";
+                   pp();
+                   //Gleiche funktionalitaet einaml intern und extern
+               </script>
+            </body>
+         </html>
+      ```
 53. Welche Selektoren gib es alles?
    ID Selektor
    Klassenselektor
@@ -129,17 +129,40 @@
     let pp=getElementById("Penis");
     pp.addEventListener("click",myFunction);
     </script>
-    
 60. Wie Navigiere ich mich durch eine DOM?
-61. Wie erzeugt, löscht und verändert man ein Element mittels DOM? Geben Sie für alle jeweil ein Besipiel.
-62. Was ist das Konzept hinter AJAX und was sind fie Vor- und Nachteile?
-63. Was ist HTTP und wie wird dies eingesetzt?
-64. Welche HTTP Anfragemethoden gibt es?
-65. Welche HTTP Status-COdes gibt es?
-66. Wie ist eine HTTP URI aufgebaut?
-67. Wie sichert man den Client?
-68. Wie sichert man den Server?
-69. Wie funktioniert der TLS Handshake zwischen Server und Cient?
+    ```html
+    <script>
+    let pp=getElementById("MyId")
+    pp.parentNode;
+    pp.childNodes;
+    pp.firstchild;
+    pp.lastchild;
+    pp.nextSibling;
+    pp.previousSibling;
+    </script>
+    ```
+62. Wie erzeugt, löscht und verändert man ein Element mittels DOM? Geben Sie für alle jeweil ein Besipiel.
+   ```html
+    <script>
+    let pp=getElementById("MyId")
+    let newPara=document.createElement("p")
+    let newText=document.createTextNode("This is NEW")
+    newPara.appendChild;
+
+    pp.appendChild(newPara);
+      // or
+    pp.insertBefore(para,someChild)
+    
+    </script>
+   ```
+64. Was ist das Konzept hinter AJAX und was sind die Vor- und Nachteile?
+65. Was ist HTTP und wie wird dies eingesetzt?
+66. Welche HTTP Anfragemethoden gibt es?
+67. Welche HTTP Status-Codes gibt es?
+68. Wie ist eine HTTP URI aufgebaut?
+69. Wie sichert man den Client?
+70. Wie sichert man den Server?
+71. Wie funktioniert der TLS Handshake zwischen Server und Cient?
 # CSS Fragen?
 1. Nennen Sie 3 Font-Familien?
 2. Zeichnen Sie das Box-Model an und erklären Sie jedes Elemnt?
