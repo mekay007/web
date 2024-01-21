@@ -88,24 +88,24 @@
    }
    ```
     ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <script src="testj.js"></script>
-</head>
-<body>
-<h1 id="penis">
-</h1>
-<script>
-    let testi=document.getElementById("penis")
-    testi.inneML="Penis123";
-    pp();
-    //Gleiche funktionalitaet einaml intern und extern
-</script>
-</body>
-</html>
+    <!DOCTYPE html>
+      <html lang="en">
+         <head>
+          <meta charset="UTF-8">
+          <title>Title</title>
+          <script src="testj.js"></script>
+         </head>
+         <body>
+            <h1 id="penis">
+            </h1>
+            <script>
+                let testi=document.getElementById("penis")
+                testi.inneML="Penis123";
+                pp();
+                //Gleiche funktionalitaet einaml intern und extern
+            </script>
+         </body>
+      </html>
     ```
     
 53. Welche Selektoren gib es alles?
