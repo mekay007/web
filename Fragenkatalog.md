@@ -72,21 +72,55 @@
     ```
     
 47. Was ist der unterschied zwischen Inline und Block Elemente?
-48. Welche Tags benutzt man zum erstellen eines Formulars?
-49. wie binde ich eine Javascript Datei intern und extern ein?
-50. Welche Selektoren gib es alles?
-51. Wie kann ich den Inhalt eines Elemnets via Javascript erweitern?
-52. Welche wichtigen Event Listener gibt es und wie kann man diese hinzufuegen? Einmal mittels Dom und einmal HTML Attribut.
-53. Wie Navigiere ich mich durch eine DOM?
-54. Wie erzeugt, löscht und verändert man ein Element mittels DOM? Geben Sie für alle jeweil ein Besipiel.
-55. Was ist das Konzept hinter AJAX und was sind fie Vor- und Nachteile?
-56. Was ist HTTP und wie wird dies eingesetzt?
-57. Welche HTTP Anfragemethoden gibt es?
-58. Welche HTTP Status-COdes gibt es?
-59. Wie ist eine HTTP URI aufgebaut?
-60. Wie sichert man den Client?
-61. Wie sichert man den Server?
-62. Wie funktioniert der TLS Handshake zwischen Server und Cient?
+   Block Element beginnt immer mit einer neuen Zeile. Standardmaessig nimmt dies die maximale Breite des Elemnts in welches diese drin ist.<br> Enden tut es mit einem Zeilenumbruch.<br>
+   Ein Inline beginnt in einer Zeile, die Breite des Elements wird anhand des benoetigten Inhalt bestimmt.
+49. Welche Tags benutzt man zum erstellen eines Formulars?
+    ```html
+    <form>
+    </form>
+    ```
+51. Wie binde ich eine Javascript intern und extern ein?
+   test.js<br>
+   ```js
+   function pp(){
+       let test=document.getElementById("penis");
+       test.innerHTML="Penis123";
+   }
+   ```
+    ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="testj.js"></script>
+</head>
+<body>
+<h1 id="penis">
+</h1>
+<script>
+    let testi=document.getElementById("penis")
+    testi.inneML="Penis123";
+    pp();
+    //Gleiche funktionalitaet einaml intern und extern
+</script>
+</body>
+</html>
+    ```
+    
+53. Welche Selektoren gib es alles?
+54. Wie kann ich den Inhalt eines Elemnets via Javascript erweitern?
+55. Welche wichtigen Event Listener gibt es und wie kann man diese hinzufuegen? Einmal mittels Dom und einmal HTML Attribut.
+56. Wie Navigiere ich mich durch eine DOM?
+57. Wie erzeugt, löscht und verändert man ein Element mittels DOM? Geben Sie für alle jeweil ein Besipiel.
+58. Was ist das Konzept hinter AJAX und was sind fie Vor- und Nachteile?
+59. Was ist HTTP und wie wird dies eingesetzt?
+60. Welche HTTP Anfragemethoden gibt es?
+61. Welche HTTP Status-COdes gibt es?
+62. Wie ist eine HTTP URI aufgebaut?
+63. Wie sichert man den Client?
+64. Wie sichert man den Server?
+65. Wie funktioniert der TLS Handshake zwischen Server und Cient?
 # CSS Fragen?
 1. Nennen Sie 3 Font-Familien?
 2. Zeichnen Sie das Box-Model an und erklären Sie jedes Elemnt?
