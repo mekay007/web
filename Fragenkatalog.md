@@ -142,27 +142,30 @@
     </script>
     ```
 62. Wie erzeugt, löscht und verändert man ein Element mittels DOM? Geben Sie für alle jeweil ein Besipiel.
-   ```html
-    <script>
-    let pp=getElementById("MyId")
-    let newPara=document.createElement("p")
-    let newText=document.createTextNode("This is NEW")
-    newPara.appendChild;
-
-    pp.appendChild(newPara);
-      // or
-    pp.insertBefore(para,someChild)
-    
-    </script>
-   ```
+      ```html
+       <script>
+       let pp=getElementById("MyId")
+       let newPara=document.createElement("p")
+       let newText=document.createTextNode("This is NEW")
+       newPara.appendChild;
+   
+       pp.appendChild(newPara);
+         // or
+       pp.insertBefore(para,someChild)
+       
+       </script>
+      ```
 64. Was ist das Konzept hinter AJAX und was sind die Vor- und Nachteile?
-65. Was ist HTTP und wie wird dies eingesetzt?
-66. Welche HTTP Anfragemethoden gibt es?
-67. Welche HTTP Status-Codes gibt es?
-68. Wie ist eine HTTP URI aufgebaut?
-69. Wie sichert man den Client?
-70. Wie sichert man den Server?
-71. Wie funktioniert der TLS Handshake zwischen Server und Cient?
+  AJAX ist ein Konzept und eine Technik, die es ermöglicht, Daten zwischen einem Webbrowser und einem Webserver asynchron auszutauschen, ohne die gesamte Seite neu zu laden.<br> + Seiten muessen nicht immer neu geladen werden da nur Inhalten geholt werden welche benoetigt werden.
+<br> + Netzwerk wird nicht so stark ausgelastet
+<br> - Implementierung ist Komplex                                                                                                     >
+66. Was ist HTTP und wie wird dies eingesetzt?
+67. Welche HTTP Anfragemethoden gibt es?
+68. Welche HTTP Status-Codes gibt es?
+69. Wie ist eine HTTP URI aufgebaut?
+70. Wie sichert man den Client?
+71. Wie sichert man den Server?
+72. Wie funktioniert der TLS Handshake zwischen Server und Cient?
 # CSS Fragen?
 1. Nennen Sie 3 Font-Familien?
 2. Zeichnen Sie das Box-Model an und erklären Sie jedes Elemnt?
