@@ -36,33 +36,48 @@
 21. Wofuer steht HTML?
     Hypertext Markup Language.
 24. Was is HTML?
-25. Welchen Standard unterliegt HTML?
-26. Was Passiert im Hintergrund wenn man eine HTTP Webseite besuchen will?
-27. Was sind HTML, CSS und Javscript fuer Sprachen.
-28. Wie lautet der aktuellste HTML Version und wann wurde diese veroeffentlicht?
-29. Wie sieht die Fehlertoleranz in HTML im vergliech zu einer Programmiersprache wie c?
-30. Wofuer steht DOM und was tut es?
-31. Wie sieht ein HTML Element aus?
-32. Gibt es leere Elemente wenn ja welche?
-33. Gibt es bei den beiden Tags einen unterschied in HTML `<p>` und `<P>`?
-34. Koennen HTML Elemente Attrubute haben?
-35. Wo und wie kann man diese Attribute aendern?
-36. Was ist der unterschied zwischen Inline und Block Elemente?
-37. Welche Tags benutzt man zum erstellen eines Formulars?
-38. wie binde ich eine Javascript Datei intern und extern ein?
-39. Welche Selektoren gib es alles?
-40. Wie kann ich den Inhalt eines Elemnets via Javascript erweitern?
-41. Welche wichtigen Event Listener gibt es und wie kann man diese hinzufuegen? Einmal mittels Dom und einmal HTML Attribut.
-42. Wie Navigiere ich mich durch eine DOM?
-43. Wie erzeugt, löscht und verändert man ein Element mittels DOM? Geben Sie für alle jeweil ein Besipiel.
-44. Was ist das Konzept hinter AJAX und was sind fie Vor- und Nachteile?
-45. Was ist HTTP und wie wird dies eingesetzt?
-46. Welche HTTP Anfragemethoden gibt es?
-47. Welche HTTP Status-COdes gibt es?
-48. Wie ist eine HTTP URI aufgebaut?
-49. Wie sichert man den Client?
-50. Wie sichert man den Server?
-51. Wie funktioniert der TLS Handshake zwischen Server und Cient?
+    Ist eine Textbasierte Auszeichnungssprache um Beschreibungen fuer Inhalte fuer Webseiten zu erstellen.
+26. Welchen Standard unterliegt HTML?
+    W3C Standard.
+28. Was Passiert im Hintergrund wenn man eine HTTP Webseite besuchen will?
+    Man schickt eine HTTP Request vom Client(Endbenutzer) an den Webserver.<br>
+    Der Webserver mit Socket erhaelt die Requesr und schick an den Cliene eine Response.<br>
+    Diese HTTP Response schickt dann fuer gewoehnlich HTML,Javascript und CSS Dateien.<br>
+    Diese Dokumente wandelt der Webbrowser in ein Bild fuer den Endnutzer.
+30. Was sind HTML, CSS und Javscript fuer Sprachen.
+    HTML: eine Markup Language<br>
+    CSS: eine Style Sheets, damit kann man Eigenschaften von Inhalten aendern (Farbe,Font,Groesse)
+32. Wie lautet der aktuellste HTML Version und wann wurde diese veroeffentlicht?
+    HTML5 2014
+1. Was sind Frameworks und was sind Ihre Vor- und Nachteile?
+   Ein Framework ist eine strukturierte und vorgefertigte Sammlung von Tools, Bibliotheken und Konventionen, die dazu dienen, die Entwicklung von Softwareanwendungen zu erleichtern.<br>
+   + erleichtert die Entwicklung von Softwareanwendungen
+   - Fuer kleine Applikationen ist die Aufwand der Seite im verhaeltnis gigantisch was zur unnoetigen Overhead fuehrt<br>
+   - man macht sich abhaengig von von den Framework wenn dieses zestoert ist ist auch in der Regel die Applikation fuer den Eimer
+34. Wie sieht die Fehlertoleranz in HTML im vergliech zu einer Programmiersprache wie c?
+    Trotz syntaktischer Fehler in einem HTML Dokument wird die Seite erstellt. Dies liegt daran das ein Webbrowser einige Fehler selber korrigiert.<br>Zudem ist die Syntax von HTML ist weniger streng und teilweise auch nicht klar definiert dadurch sind Darstellungsprobleme aufgrund von Syntaxfehler verringert.
+37. Wie sieht ein HTML Element aus?
+    Ein Element ist zwischen Begint mit dem Start Tag und endet mit dem End Tag.
+39. Gibt es leere Elemente wenn ja welche?
+40. Gibt es bei den beiden Tags einen unterschied in HTML `<p>` und `<P>`?
+41. Koennen HTML Elemente Attrubute haben?
+42. Wo und wie kann man diese Attribute aendern?
+43. Was ist der unterschied zwischen Inline und Block Elemente?
+44. Welche Tags benutzt man zum erstellen eines Formulars?
+45. wie binde ich eine Javascript Datei intern und extern ein?
+46. Welche Selektoren gib es alles?
+47. Wie kann ich den Inhalt eines Elemnets via Javascript erweitern?
+48. Welche wichtigen Event Listener gibt es und wie kann man diese hinzufuegen? Einmal mittels Dom und einmal HTML Attribut.
+49. Wie Navigiere ich mich durch eine DOM?
+50. Wie erzeugt, löscht und verändert man ein Element mittels DOM? Geben Sie für alle jeweil ein Besipiel.
+51. Was ist das Konzept hinter AJAX und was sind fie Vor- und Nachteile?
+52. Was ist HTTP und wie wird dies eingesetzt?
+53. Welche HTTP Anfragemethoden gibt es?
+54. Welche HTTP Status-COdes gibt es?
+55. Wie ist eine HTTP URI aufgebaut?
+56. Wie sichert man den Client?
+57. Wie sichert man den Server?
+58. Wie funktioniert der TLS Handshake zwischen Server und Cient?
 # CSS Fragen?
 1. Nennen Sie 3 Font-Familien?
 2. Zeichnen Sie das Box-Model an und erklären Sie jedes Elemnt?
