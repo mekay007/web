@@ -59,25 +59,34 @@
 37. Wie sieht ein HTML Element aus?
     Ein Element ist zwischen Begint mit dem Start Tag und endet mit dem End Tag.
 39. Gibt es leere Elemente wenn ja welche?
-40. Gibt es bei den beiden Tags einen unterschied in HTML `<p>` und `<P>`?
-41. Koennen HTML Elemente Attrubute haben?
-42. Wo und wie kann man diese Attribute aendern?
-43. Was ist der unterschied zwischen Inline und Block Elemente?
-44. Welche Tags benutzt man zum erstellen eines Formulars?
-45. wie binde ich eine Javascript Datei intern und extern ein?
-46. Welche Selektoren gib es alles?
-47. Wie kann ich den Inhalt eines Elemnets via Javascript erweitern?
-48. Welche wichtigen Event Listener gibt es und wie kann man diese hinzufuegen? Einmal mittels Dom und einmal HTML Attribut.
-49. Wie Navigiere ich mich durch eine DOM?
-50. Wie erzeugt, löscht und verändert man ein Element mittels DOM? Geben Sie für alle jeweil ein Besipiel.
-51. Was ist das Konzept hinter AJAX und was sind fie Vor- und Nachteile?
-52. Was ist HTTP und wie wird dies eingesetzt?
-53. Welche HTTP Anfragemethoden gibt es?
-54. Welche HTTP Status-COdes gibt es?
-55. Wie ist eine HTTP URI aufgebaut?
-56. Wie sichert man den Client?
-57. Wie sichert man den Server?
-58. Wie funktioniert der TLS Handshake zwischen Server und Cient?
+    Ja <br>
+41. Gibt es bei den beiden Tags einen unterschied in HTML `<p>` und `<P>`?
+    Ist das gleiche in HTML.
+43. Koennen HTML Elemente Attrubute haben?
+    JA
+45. Wo und wie kann man diese Attribute aendern?
+    Im Start tag in einem HTML Dokument<br>.
+    Bespiel:<br>
+    ```html
+    <h1 style="font-color: red; background-color: blue">
+    ```
+    
+47. Was ist der unterschied zwischen Inline und Block Elemente?
+48. Welche Tags benutzt man zum erstellen eines Formulars?
+49. wie binde ich eine Javascript Datei intern und extern ein?
+50. Welche Selektoren gib es alles?
+51. Wie kann ich den Inhalt eines Elemnets via Javascript erweitern?
+52. Welche wichtigen Event Listener gibt es und wie kann man diese hinzufuegen? Einmal mittels Dom und einmal HTML Attribut.
+53. Wie Navigiere ich mich durch eine DOM?
+54. Wie erzeugt, löscht und verändert man ein Element mittels DOM? Geben Sie für alle jeweil ein Besipiel.
+55. Was ist das Konzept hinter AJAX und was sind fie Vor- und Nachteile?
+56. Was ist HTTP und wie wird dies eingesetzt?
+57. Welche HTTP Anfragemethoden gibt es?
+58. Welche HTTP Status-COdes gibt es?
+59. Wie ist eine HTTP URI aufgebaut?
+60. Wie sichert man den Client?
+61. Wie sichert man den Server?
+62. Wie funktioniert der TLS Handshake zwischen Server und Cient?
 # CSS Fragen?
 1. Nennen Sie 3 Font-Familien?
 2. Zeichnen Sie das Box-Model an und erklären Sie jedes Elemnt?
