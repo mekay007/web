@@ -107,20 +107,31 @@
          </body>
       </html>
    ```
-    
 53. Welche Selektoren gib es alles?
-54. Wie kann ich den Inhalt eines Elemnets via Javascript erweitern?
-55. Welche wichtigen Event Listener gibt es und wie kann man diese hinzufuegen? Einmal mittels Dom und einmal HTML Attribut.
-56. Wie Navigiere ich mich durch eine DOM?
-57. Wie erzeugt, löscht und verändert man ein Element mittels DOM? Geben Sie für alle jeweil ein Besipiel.
-58. Was ist das Konzept hinter AJAX und was sind fie Vor- und Nachteile?
-59. Was ist HTTP und wie wird dies eingesetzt?
-60. Welche HTTP Anfragemethoden gibt es?
-61. Welche HTTP Status-COdes gibt es?
-62. Wie ist eine HTTP URI aufgebaut?
-63. Wie sichert man den Client?
-64. Wie sichert man den Server?
-65. Wie funktioniert der TLS Handshake zwischen Server und Cient?
+    getElementById<br>
+    .[classname] {}
+    div {}
+55. Was ist DOM?
+    DOM (Document Object Model) stellt ein Dokumente als Baumstruktur dadurch koennen wir uns durch die Elemte eines Webseite navigieren und Elemente veraendern, loeschen oder hinzufuegen. 
+56. Wie kann ich den Inhalt eines Elemnets via Javascript erweitern?
+    ```html
+    <p id="Pen15"><p>
+    <script>
+       let pp=getElementById("Pen15");
+       pp.innerHTML="Ich bin neu"
+    </script>
+    ```
+58. Welche wichtigen Event Listener gibt es und wie kann man diese hinzufuegen? Einmal mittels Dom und einmal HTML Attribut.
+59. Wie Navigiere ich mich durch eine DOM?
+60. Wie erzeugt, löscht und verändert man ein Element mittels DOM? Geben Sie für alle jeweil ein Besipiel.
+61. Was ist das Konzept hinter AJAX und was sind fie Vor- und Nachteile?
+62. Was ist HTTP und wie wird dies eingesetzt?
+63. Welche HTTP Anfragemethoden gibt es?
+64. Welche HTTP Status-COdes gibt es?
+65. Wie ist eine HTTP URI aufgebaut?
+66. Wie sichert man den Client?
+67. Wie sichert man den Server?
+68. Wie funktioniert der TLS Handshake zwischen Server und Cient?
 # CSS Fragen?
 1. Nennen Sie 3 Font-Familien?
 2. Zeichnen Sie das Box-Model an und erklären Sie jedes Elemnt?
