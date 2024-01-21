@@ -59,7 +59,7 @@
 37. Wie sieht ein HTML Element aus?
     Ein Element ist zwischen Begint mit dem Start Tag und endet mit dem End Tag.
 39. Gibt es leere Elemente wenn ja welche?
-    Ja <br>
+    Ja `<br>`
 41. Gibt es bei den beiden Tags einen unterschied in HTML `<p>` und `<P>`?
     Ist das gleiche in HTML.
 43. Koennen HTML Elemente Attrubute haben?
@@ -108,9 +108,8 @@
       </html>
    ```
 53. Welche Selektoren gib es alles?
-    getElementById<br>
-    .[classname] {}
-    div {}
+   ID Selektor
+   Klassenselektor
 55. Was ist DOM?
     DOM (Document Object Model) stellt ein Dokumente als Baumstruktur dadurch koennen wir uns durch die Elemte eines Webseite navigieren und Elemente veraendern, loeschen oder hinzufuegen. 
 56. Wie kann ich den Inhalt eines Elemnets via Javascript erweitern?
@@ -122,16 +121,25 @@
     </script>
     ```
 58. Welche wichtigen Event Listener gibt es und wie kann man diese hinzufuegen? Einmal mittels Dom und einmal HTML Attribut.
-59. Wie Navigiere ich mich durch eine DOM?
-60. Wie erzeugt, löscht und verändert man ein Element mittels DOM? Geben Sie für alle jeweil ein Besipiel.
-61. Was ist das Konzept hinter AJAX und was sind fie Vor- und Nachteile?
-62. Was ist HTTP und wie wird dies eingesetzt?
-63. Welche HTTP Anfragemethoden gibt es?
-64. Welche HTTP Status-COdes gibt es?
-65. Wie ist eine HTTP URI aufgebaut?
-66. Wie sichert man den Client?
-67. Wie sichert man den Server?
-68. Wie funktioniert der TLS Handshake zwischen Server und Cient?
+    onclick,onmouseover,onchange
+    ```html
+    <button id="Penis" onclick="doSome()">
+    //In HTML DOM
+    <script>
+    let pp=getElementById("Penis");
+    pp.addEventListener("click",myFunction);
+    </script>
+    
+60. Wie Navigiere ich mich durch eine DOM?
+61. Wie erzeugt, löscht und verändert man ein Element mittels DOM? Geben Sie für alle jeweil ein Besipiel.
+62. Was ist das Konzept hinter AJAX und was sind fie Vor- und Nachteile?
+63. Was ist HTTP und wie wird dies eingesetzt?
+64. Welche HTTP Anfragemethoden gibt es?
+65. Welche HTTP Status-COdes gibt es?
+66. Wie ist eine HTTP URI aufgebaut?
+67. Wie sichert man den Client?
+68. Wie sichert man den Server?
+69. Wie funktioniert der TLS Handshake zwischen Server und Cient?
 # CSS Fragen?
 1. Nennen Sie 3 Font-Familien?
 2. Zeichnen Sie das Box-Model an und erklären Sie jedes Elemnt?
