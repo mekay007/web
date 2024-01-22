@@ -173,17 +173,17 @@
    - 4XX : Client Fehler (404 == not found, 403 == forbidden)
    - 5XX : Server Fehler (502 == bad Gateway; Proxy-Error)
 71. Wie ist eine HTTP URI aufgebaut?
-   ```
-     https://codi.ide3.de:443/doc/id?name=demo#chapter5
-     \___/ \________________/\_____/ \_______/ \__/
-      |          |             |          |        |
-   scheme    authority        path      query   fragment
-   ```
-   scheme :  Protokoll (http, https, ftp, ...)  
-   authority : User, DNS Name und ggfls. Portnummer  
-   path : (hierarchischer) Dokumentenpfad  
-   query :  weiter spezifizierende Abfrage (i.d.R. Skript-Parameter)  
-   fragment :  Sprungmarke auf Anker `<a href="#chapter5"></a>`
+      ```
+        https://codi.ide3.de:443/doc/id?name=demo#chapter5
+        \___/ \________________/\_____/ \_______/ \__/
+         |          |             |          |        |
+      scheme    authority        path      query   fragment
+      ```
+      scheme :  Protokoll (http, https, ftp, ...)  
+      authority : User, DNS Name und ggfls. Portnummer  
+      path : (hierarchischer) Dokumentenpfad  
+      query :  weiter spezifizierende Abfrage (i.d.R. Skript-Parameter)  
+      fragment :  Sprungmarke auf Anker `<a href="#chapter5"></a>`
    
 72. Wie sichert man den Client?
 73. Wie sichert man den Server?
