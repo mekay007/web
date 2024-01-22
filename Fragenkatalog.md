@@ -183,7 +183,8 @@
    authority : User, DNS Name und ggfls. Portnummer  
    path : (hierarchischer) Dokumentenpfad  
    query :  weiter spezifizierende Abfrage (i.d.R. Skript-Parameter)  
-   fragment :  Sprungmarke auf Anker `<a href="#chapter5"></a>`  
+   fragment :  Sprungmarke auf Anker `<a href="#chapter5"></a>`
+   
 72. Wie sichert man den Client?
 73. Wie sichert man den Server?
 74. Wie funktioniert der TLS Handshake zwischen Server und Cient?
