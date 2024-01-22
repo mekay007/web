@@ -172,6 +172,7 @@
    - 3XX : Umleitung (Page Moved / Umleitung, 301)
    - 4XX : Client Fehler (404 == not found, 403 == forbidden)
    - 5XX : Server Fehler (502 == bad Gateway; Proxy-Error)
+
 71. Wie ist eine HTTP URI aufgebaut?
       ```
         https://codi.ide3.de:443/doc/id?name=demo#chapter5
