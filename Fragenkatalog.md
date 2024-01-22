@@ -187,17 +187,32 @@
       fragment :  Sprungmarke auf Anker `<a href="#chapter5"></a>`
    
 72. Wie sichert man den Client?
-73. Wie sichert man den Server?
-74. Wie funktioniert der TLS Handshake zwischen Server und Cient?
+   1. Netzwerk schuetzen indem eine Firewall benutzen und veruschen keine offenes Kanaele zu benutzen. Hier besser LAN
+   2. Passwort Caching mit bedacht da Dritte diese abzweigen koennten
+   3. Trennung von kritischen Webanwendungen (Banking etc.) z.B durch virtuelle Maschinen
+74. Wie sichert man den Server?
+    1. Aktuelles Betriebssystem und aktuelle Software verwenden
+    2. nicht genutzte Komponenten (z.B. php oder andere Module des Webservers) entfernen
+    3. (Transport-)Verschlüsselung aktivieren
+76. Wie funktioniert der TLS Handshake zwischen Server und Cient?
+    1. Browser und Server 
 # CSS Fragen?
 1. Nennen Sie 3 Font-Familien?
-   Arial, Sans-Serif, Agbalumo, Calibri
+   Arial, Helvetica, Calibri
 3. Zeichnen Sie das Box-Model an und erklären Sie jedes Elemnt?
    [Margin [Border [Padding [Inhalt] Padding] Border] Margin]
 5. Was ist der unterschied zwischen content-box und bordebox?
    
 7. Was versteht man unter Responsive Web-Design und wie kann man so ein Design realisieren?
-8. Wie realisiere ich eine Mediaquery für Bildschirme die max 600px breit sind?
+   In dem man keine statischen groessen durch px benutzt. Zudem kann man Mediaqueries benutzten um die Ausrichtung von Elementen von Landscape auf Potrait anzupassen?
+9. Wie realisiere ich eine Mediaquery für Bildschirme die max 600px breit sind?
+   ```css
+   @media only and (max-width: 600px){
+   .pp {
+      height: 10%;
+      }
+   }
+   ```
 # HTML aufgaben:
 1. Schreiben Sie einen einfachen adierer in HTML?
 2. Erstellen Sie eine Tabelle in HTML
