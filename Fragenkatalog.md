@@ -30,7 +30,7 @@
     Die Blockchain ist eine dezentrale Datenbank aus mehreren miteinander verknuepften Bloecken.<br>
     Jeder Block hatt alle Daten.
 17. Was sind NFTs?
-    NFT steht steht fuer Non-Fongible-Token. Dies Token sind einzigartig und koennen nur von einer Person besitzt werden.<br> Klassische Token wie Ethereum oder Bitcoin koennen zerlegt werden, ein NFT jedoch nicht. 
+    NFT steht steht fuer Non-Fongible-Token. Diese Token sind einzigartig und koennen nur von einer Person besitzt werden.<br> Klassische Token wie Ethereum oder Bitcoin koennen zerlegt werden, ein NFT jedoch nicht. 
 19. Was versteht man unter DAO?
     Ein dezentrale Organisation welche autonom arbeitet d.h. ein Stueck Code welches aufgrund von Gegebenheiten entscheidungen trifft. Diese Entscheidungen werden nur mittel Algorithmen getroffen.
 21. Wofuer steht HTML?
@@ -71,8 +71,16 @@
     <h1 style="font-color: red; background-color: blue">
     ```
     
-47. Was ist der unterschied zwischen Inline und Block Elemente?
+47. Was ist der unterschied zwischen Inline und Block Elemente und geben Sie Beispiele?
    Block Element beginnt immer mit einer neuen Zeile. Standardmaessig nimmt dies die maximale Breite des Elemnts in welches diese drin ist.<br> Enden tut es mit einem Zeilenumbruch.<br>
+   Block:<br>
+   ```html
+   <div><table><li><ul>
+   ```
+   Inline:<br>
+   ```
+   <span><button><input><img>
+   ```
    Ein Inline beginnt in einer Zeile, die Breite des Elements wird anhand des benoetigten Inhalt bestimmt.
 49. Welche Tags benutzt man zum erstellen eines Formulars?
     ```html
@@ -108,10 +116,9 @@
          </html>
       ```
 53. Welche Selektoren gib es alles?
-   ID Selektor
-   Klassenselektor
+   Elementselektor, Universalselektor, Klassen + ID
 55. Was ist DOM?
-    DOM (Document Object Model) stellt ein Dokumente als Baumstruktur dadurch koennen wir uns durch die Elemte eines Webseite navigieren und Elemente veraendern, loeschen oder hinzufuegen. 
+    DOM (Document Object Model) stellt ein Dokumente als Baumstruktur dar, dadurch koennen wir uns durch die Elemente eine Webseite navigieren und Elemente veraendern, loeschen oder hinzufuegen. 
 56. Wie kann ich den Inhalt eines Elemnets via Javascript erweitern?
     ```html
     <p id="Pen15"><p>
@@ -134,7 +141,7 @@
     <script>
     let pp=getElementById("MyId")
     pp.parentNode;
-    pp.childNodes;
+    pp.childNodes[];
     pp.firstchild;
     pp.lastchild;
     pp.nextSibling;
@@ -168,12 +175,15 @@
 72. Wie funktioniert der TLS Handshake zwischen Server und Cient?
 # CSS Fragen?
 1. Nennen Sie 3 Font-Familien?
-2. Zeichnen Sie das Box-Model an und erklären Sie jedes Elemnt?
-3. Was ist der unterschied zwischen content-box und bordebox?
-4. Was versteht man unter Responsive Web-Design und wie kann man so ein Design realisieren?
-5. Wie realisiere ich eine Mediaquery für Bildschirme die max 600px breit sind?
+   Arial, Sans-Serif, Agbalumo, Calibri
+3. Zeichnen Sie das Box-Model an und erklären Sie jedes Elemnt?
+   [Margin [Border [Padding [Inhalt] Padding] Border] Margin]
+5. Was ist der unterschied zwischen content-box und bordebox?
+   
+7. Was versteht man unter Responsive Web-Design und wie kann man so ein Design realisieren?
+8. Wie realisiere ich eine Mediaquery für Bildschirme die max 600px breit sind?
 # HTML aufgaben:
 1. Schreiben Sie einen einfachen adierer in HTML?
-2. Erstellen Sie eine Tabell in HTML
+2. Erstellen Sie eine Tabelle in HTML
 # Javascript Aufgaben:
 
