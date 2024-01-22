@@ -30,7 +30,7 @@
     Die Blockchain ist eine dezentrale Datenbank aus mehreren miteinander verknuepften Bloecken.<br>
     Jeder Block hatt alle Daten.
 17. Was sind NFTs?
-    NFT steht steht fuer Non-Fongible-Token. Diese Token sind einzigartig und koennen nur von einer Person besitzt werden.<br> Klassische Token wie Ethereum oder Bitcoin koennen zerlegt werden, ein NFT jedoch nicht. 
+    NFT steht steht fuer Non-Fongible-Token. Dies Token sind einzigartig und koennen nur von einer Person besitzt werden.<br> Klassische Token wie Ethereum oder Bitcoin koennen zerlegt werden, ein NFT jedoch nicht. 
 19. Was versteht man unter DAO?
     Ein dezentrale Organisation welche autonom arbeitet d.h. ein Stueck Code welches aufgrund von Gegebenheiten entscheidungen trifft. Diese Entscheidungen werden nur mittel Algorithmen getroffen.
 21. Wofuer steht HTML?
@@ -71,16 +71,8 @@
     <h1 style="font-color: red; background-color: blue">
     ```
     
-47. Was ist der unterschied zwischen Inline und Block Elemente und geben Sie Beispiele?
+47. Was ist der unterschied zwischen Inline und Block Elemente?
    Block Element beginnt immer mit einer neuen Zeile. Standardmaessig nimmt dies die maximale Breite des Elemnts in welches diese drin ist.<br> Enden tut es mit einem Zeilenumbruch.<br>
-   Block:<br>
-   ```html
-   <div><table><li><ul>
-   ```
-   Inline:<br>
-   ```
-   <span><button><input><img>
-   ```
    Ein Inline beginnt in einer Zeile, die Breite des Elements wird anhand des benoetigten Inhalt bestimmt.
 49. Welche Tags benutzt man zum erstellen eines Formulars?
     ```html
@@ -116,9 +108,10 @@
          </html>
       ```
 53. Welche Selektoren gib es alles?
-   Elementselektor, Universalselektor, Klassen + ID
+   ID Selektor
+   Klassenselektor
 55. Was ist DOM?
-    DOM (Document Object Model) stellt ein Dokumente als Baumstruktur dar, dadurch koennen wir uns durch die Elemente eine Webseite navigieren und Elemente veraendern, loeschen oder hinzufuegen. 
+    DOM (Document Object Model) stellt ein Dokumente als Baumstruktur dadurch koennen wir uns durch die Elemte eines Webseite navigieren und Elemente veraendern, loeschen oder hinzufuegen. 
 56. Wie kann ich den Inhalt eines Elemnets via Javascript erweitern?
     ```html
     <p id="Pen15"><p>
@@ -141,7 +134,7 @@
     <script>
     let pp=getElementById("MyId")
     pp.parentNode;
-    pp.childNodes[];
+    pp.childNodes;
     pp.firstchild;
     pp.lastchild;
     pp.nextSibling;
@@ -167,12 +160,33 @@
 <br> + Netzwerk wird nicht so stark ausgelastet
 <br> - Implementierung ist Komplex                                                                                                     >
 66. Was ist HTTP und wie wird dies eingesetzt?
-67. Welche HTTP Anfragemethoden gibt es?
-68. Welche HTTP Status-Codes gibt es?
-69. Wie ist eine HTTP URI aufgebaut?
-70. Wie sichert man den Client?
-71. Wie sichert man den Server?
-72. Wie funktioniert der TLS Handshake zwischen Server und Cient?
+    HTTP ist ein Zustandloses Protokoll d.h. Zustaende muessen zusaetzlich uebermittelt werden zum Beispiel via Cookies.<br>
+    Diese Protokol dient zum Datenaustausch zwischen Webserver und Webbrowser.<br> Wenn die Webseite unverschluesselt ist wird in der Regel der Port 80 auf dem Webserver benutzt.<br>
+    Beispielsweise bei HTTPS wird 443 als Port benutzt. Es wird bei HTTP zwischen 2 Nachrichten Typen unterschieden, einmal zwischen Request und Response.
+68. Welche HTTP Anfragemethoden gibt es?
+    GET: Dokumente werden angefordert vom Server mittel URI inklusive Query Parameter <br>
+    POST: Wird verwendet, um Daten an den Server zu senden. <br>
+69. Welche HTTP Status-Codes gibt es?
+   - 1XX : Informationen (z.B. Protokollwechsel)
+   - 2XX : Erfolgreiche Operation  (200 == OK)
+   - 3XX : Umleitung (Page Moved / Umleitung, 301)
+   - 4XX : Client Fehler (404 == not found, 403 == forbidden)
+   - 5XX : Server Fehler (502 == bad Gateway; Proxy-Error)
+71. Wie ist eine HTTP URI aufgebaut?
+   
+     https://codi.ide3.de:443/doc/id?name=demo#chapter5
+     \___/ \________________/\_____/ \_______/ \__/
+      |          |             |          |        |
+   scheme    authority        path      query   fragment
+
+   scheme :  Protokoll (http, https, ftp, ...)
+   authority : User, DNS Name und ggfls. Portnummer
+   path : (hierarchischer) Dokumentenpfad
+   query :  weiter spezifizierende Abfrage (i.d.R. Skript-Parameter)
+   fragment :  Sprungmarke auf Anker `<a href="#chapter5"></a>`
+72. Wie sichert man den Client?
+73. Wie sichert man den Server?
+74. Wie funktioniert der TLS Handshake zwischen Server und Cient?
 # CSS Fragen?
 1. Nennen Sie 3 Font-Familien?
    Arial, Sans-Serif, Agbalumo, Calibri
