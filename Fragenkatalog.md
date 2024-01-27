@@ -134,7 +134,7 @@
     <script>
     let pp=getElementById("MyId")
     pp.parentNode;
-    pp.childNodes;
+    pp.childNodes[];
     pp.firstchild;
     pp.lastchild;
     pp.nextSibling;
