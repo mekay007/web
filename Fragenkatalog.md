@@ -5,6 +5,7 @@
      <html>
        <head>
        ...
+   //penis
        </head>
        <body>
        ...
@@ -13,6 +14,7 @@
    ```
    Der Head hat Metafdaten von anderen Webseiten. Hiermit koennen auch externe Stylecheets oder Javascript Dokumente verlinken.<br>
    Im Body sind die Webseiten Inhalte.
+1. Was kommt in den Head und was kommt in den Body der Webseite
 3. Wann und von wem wurde der Begriff WorldWideWeb gepraegt?
    Das WWW wurde 1990 Gepraegt durch Tim Berners-Lee.
 5. Was war ein Problem von Web 1.0?
@@ -23,23 +25,23 @@
     Umfasst verschiedene soziale und technische Entwicklung. Besonder ist hier das man jetzt nun auch dynamische Seiten und Inhalte hat.<br> Man kann mit den Webseiten interargieren und nun Inhalte selber schreiben. 
 11. Was versteht man unter Web 3.0?
     Daten sollen lesbar un daher auch nutzbar fuer Maschinen und Software sein.
-13. Was war die Motivation hinter Web 3.0?
+13. Was war die Motivation hinter Web 3.0?  
     Das Web zu dezentralisieren da Unternehmen wie Meta oder Google unsere Daten besitzen und damit anstellen koennen was diese moechten.<br>
     Man Selber als User besitzt nichts im Internet. Deswegen Soll das Web 3.0 Das Prinzip der Ownership hinzufuegen.
-15. Was ist eine Blockchain?
+15. Was ist eine Blockchain?  
     Die Blockchain ist eine dezentrale Datenbank aus mehreren miteinander verknuepften Bloecken.<br>
     Jeder Block hatt alle Daten.
-17. Was sind NFTs?
+17. Was sind NFTs?  
     NFT steht steht fuer Non-Fongible-Token. Dies Token sind einzigartig und koennen nur von einer Person besitzt werden.<br> Klassische Token wie Ethereum oder Bitcoin koennen zerlegt werden, ein NFT jedoch nicht. 
-19. Was versteht man unter DAO?
+19. Was versteht man unter DAO?  
     Ein dezentrale Organisation welche autonom arbeitet d.h. ein Stueck Code welches aufgrund von Gegebenheiten entscheidungen trifft. Diese Entscheidungen werden nur mittel Algorithmen getroffen.
-21. Wofuer steht HTML?
+21. Wofuer steht HTML?  
     Hypertext Markup Language.
-24. Was is HTML?
+24. Was is HTML?  
     Ist eine Textbasierte Auszeichnungssprache um Beschreibungen fuer Inhalte fuer Webseiten zu erstellen.
-26. Welchen Standard unterliegt HTML?
+26. Welchen Standard unterliegt HTML?  
     W3C Standard.
-28. Was Passiert im Hintergrund wenn man eine HTTP Webseite besuchen will?
+28. Was Passiert im Hintergrund wenn man eine HTTP Webseite besuchen will?  
     Man schickt eine HTTP Request vom Client(Endbenutzer) an den Webserver.<br>
     Der Webserver mit Socket erhaelt die Requesr und schick an den Cliene eine Response.<br>
     Diese HTTP Response schickt dann fuer gewoehnlich HTML,Javascript und CSS Dateien.<br>
