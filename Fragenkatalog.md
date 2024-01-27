@@ -12,29 +12,28 @@
        </body>
      </html>
    ```
-   Der Head hat Metafdaten von anderen Webseiten. Hiermit koennen auch externe Stylecheets oder Javascript Dokumente verlinken.<br>
+   Der Head hat Metadaten von anderen zum Beispiel Zeichenkodierung. Hiermit koennen auch externe Stylecheets oder Javascript Dokumente verlinkt werden.<br>
    Im Body sind die Webseiten Inhalte.
-1. Was kommt in den Head und was kommt in den Body der Webseite
 3. Wann und von wem wurde der Begriff WorldWideWeb gepraegt?
    Das WWW wurde 1990 Gepraegt durch Tim Berners-Lee.
 5. Was war ein Problem von Web 1.0?
    Begrenzte visuelle Ausdrucksmoeglichkeiten.
-7. Wann wurde der Begriff Web 2.0 gepraegt?
+7. Wann wurde der Begriff Web 2.0 gepraegt?  
    1990
 9. Was versteht man unter Web 2.0?
     Umfasst verschiedene soziale und technische Entwicklung. Besonder ist hier das man jetzt nun auch dynamische Seiten und Inhalte hat.<br> Man kann mit den Webseiten interargieren und nun Inhalte selber schreiben. 
-11. Was versteht man unter Web 3.0?
-    Daten sollen lesbar un daher auch nutzbar fuer Maschinen und Software sein.
+11. Was versteht man unter Web 3.0?  
+  Web 3.0 ist ein Konzept für die nächste Phase des Internets, das auf dezentralen Technologien, maschinellem Lernen und Blockchain aufbaut. 
 13. Was war die Motivation hinter Web 3.0?  
     Das Web zu dezentralisieren da Unternehmen wie Meta oder Google unsere Daten besitzen und damit anstellen koennen was diese moechten.<br>
-    Man Selber als User besitzt nichts im Internet. Deswegen Soll das Web 3.0 Das Prinzip der Ownership hinzufuegen.
+    Man selber als User besitzt nichts im Internet. Deswegen Soll das Web 3.0 Das Prinzip der Ownership hinzufuegen in dem seine Daten nicht dezentralisiert ablegt sicher vr dritten im Internet.
 15. Was ist eine Blockchain?  
     Die Blockchain ist eine dezentrale Datenbank aus mehreren miteinander verknuepften Bloecken.<br>
     Jeder Block hatt alle Daten.
 17. Was sind NFTs?  
     NFT steht steht fuer Non-Fongible-Token. Dies Token sind einzigartig und koennen nur von einer Person besitzt werden.<br> Klassische Token wie Ethereum oder Bitcoin koennen zerlegt werden, ein NFT jedoch nicht. 
 19. Was versteht man unter DAO?  
-    Ein dezentrale Organisation welche autonom arbeitet d.h. ein Stueck Code welches aufgrund von Gegebenheiten entscheidungen trifft. Diese Entscheidungen werden nur mittel Algorithmen getroffen.
+    Ein dezentrale Organisation welche autonom arbeitet d.h. ein Stueck Code welches aufgrund von Gegebenheiten entscheidungen trifft. Diese Entscheidungen werden nur mittel Algorithmen getroffen. Moechte man so eine Dienstleistung eines solchen Unternehmens beziehen geht dies mittels Smart-Contracts 
 21. Wofuer steht HTML?  
     Hypertext Markup Language.
 24. Was is HTML?  
@@ -42,10 +41,13 @@
 26. Welchen Standard unterliegt HTML?  
     W3C Standard.
 28. Was Passiert im Hintergrund wenn man eine HTTP Webseite besuchen will?  
-    Man schickt eine HTTP Request vom Client(Endbenutzer) an den Webserver.<br>
-    Der Webserver mit Socket erhaelt die Requesr und schick an den Cliene eine Response.<br>
-    Diese HTTP Response schickt dann fuer gewoehnlich HTML,Javascript und CSS Dateien.<br>
-    Diese Dokumente wandelt der Webbrowser in ein Bild fuer den Endnutzer.
+    1. Man schickt eine HTTP Request vom Client(Endbenutzer) an den Webserver.<br>
+    1. Der Webserver mit Socket erhaelt die Request und schick an den Cliene eine Response.<br>
+    1. Diese HTTP Response schickt dann fuer gewoehnlich HTML,Javascript und CSS Dateien.<br>
+    1. Als erstes wird Das HTML Dokument verabeitet und der das DOM erzeugt.
+    2. Die CSS Datein werden dann verarbeitet und die Aenderungrn der Attribute werden in das DOM uebernommen.
+    3. Die Java-Script Skripte werden ausgefuehrt.
+    4. HTML-, CSS- und JavaScript-Komponenten.
 30. Was sind HTML, CSS und Javscript fuer Sprachen.
     HTML: eine Markup Language<br>
     CSS: eine Style Sheets, damit kann man Eigenschaften von Inhalten aendern (Farbe,Font,Groesse)
@@ -112,6 +114,7 @@
 53. Welche Selektoren gib es alles?
    ID Selektor
    Klassenselektor
+   Universalselektor
 55. Was ist DOM?
     DOM (Document Object Model) stellt ein Dokumente als Baumstruktur dadurch koennen wir uns durch die Elemte eines Webseite navigieren und Elemente veraendern, loeschen oder hinzufuegen. 
 56. Wie kann ich den Inhalt eines Elemnets via Javascript erweitern?
@@ -197,7 +200,11 @@
        2. nicht genutzte Komponenten (z.B. php oder andere Module des Webservers) entfernen
        3. (Transport-)Verschlüsselung aktivieren
 76. Wie funktioniert der TLS Handshake zwischen Server und Cient?
-       1. Browser und Server 
+       1. Browser sagt hallo zur Webseite
+       2. Webseite sagt hallo zurueck und schickt an den Client ein Zertifikat
+       3. Client ueberprueft ob das Zertifikat zur der Seite passt dir er besuchen moechte
+       4. Wenn es die richtige Seite ist befinden sich Webseite und Client einer Kommunikation und legen sich auf eine Verschluesselungcode fest.
+       5. Daten die der Server und der Client verschicken werden mit diesem Schluessel verschluesselt, sodass nur der Server und der CLient die Daten entziffern koennen.
 # CSS Fragen?
 1. Nennen Sie 3 Font-Familien?
    Arial, Helvetica, Calibri
@@ -218,5 +225,39 @@
 # HTML aufgaben:
 1. Schreiben Sie einen einfachen adierer in HTML?
 2. Erstellen Sie eine Tabelle in HTML
+   ```html
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <title>Title</title>
+       <script src="testj.js"></script>
+       <style>
+           td {
+               border: solid #0004;
+           }
+       </style>
+   </head>
+   <body>
+      <table style="border: solid black">
+          <tr>
+              <th>Name</th>
+              <th>Alter</th>
+              <th>Penislaenge</th>
+          </tr>
+          <tr>
+              <td>Meric Kaynak</td>
+              <td>22</td>
+              <td>3 cm</td>
+          </tr>
+          <tr>
+              <td>Erik Dubrov</td>
+              <td>22</td>
+              <td>20 cm</td>
+          </tr>
+      
+      </table>
+   </body>
+   ```
 # Javascript Aufgaben:
 
