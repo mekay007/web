@@ -47,7 +47,7 @@
     1. Als erstes wird Das HTML Dokument verabeitet und der das DOM erzeugt.
     2. Die CSS Datein werden dann verarbeitet und die Aenderungrn der Attribute werden in das DOM uebernommen.
     3. Die Java-Script Skripte werden ausgefuehrt.
-    4. HTML-, CSS- und JavaScript-Komponenten.
+    4. HTML-, CSS- und JavaScript-Komponenten werden kobiniert.
 30. Was sind HTML, CSS und Javscript fuer Sprachen.
     HTML: eine Markup Language<br>
     CSS: eine Style Sheets, damit kann man Eigenschaften von Inhalten aendern (Farbe,Font,Groesse)
